@@ -10,7 +10,7 @@
     <h1>Lol Api workbench</h1>
     <section class="search">
         <form id="search-invocator">
-            <input placeholder="Invocateur" name="invocateur" value="furiie"/><button>Chercher</button>
+            <input placeholder="Nom d'invocateur" name="invocateur" value=""/><button>Chercher</button>
             
         </form>
     </section>

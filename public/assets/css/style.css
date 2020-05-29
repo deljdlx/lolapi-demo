@@ -14,6 +14,7 @@ section.search input,  section.search button{
 
 
 article.match {
+    background-color:#DDD;
     margin-bottom: 2rem;
 }
 
@@ -31,12 +32,13 @@ article.lose {
 }
 
 article .header {
-    padding: 1rem;
+    padding: 4px;
     color:#FFF;
     margin-bottom: 1rem;
 }
 
 article .header h2 {
+    margin:0;
     display: flex;
 }
 
