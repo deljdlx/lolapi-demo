@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Test Lol api</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
 
