@@ -1,6 +1,7 @@
+## Documentation officielle
+https://developer.riotgames.com/docs/portal
 
-
-## documentation
+## Documentation non officielle
 https://developer.riotgames.com/docs/lol
 
 ## Application registration 
