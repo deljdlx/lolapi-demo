@@ -1,0 +1,109 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.search {
+    margin-bottom: 2rem;
+}
+
+section.search input,  section.search button{
+    display: inline-block;
+    font-size: 3rem;
+}
+
+
+
+article.match {
+    margin-bottom: 2rem;
+}
+
+article.match {
+    padding: 4px;
+
+}
+
+article.win {
+    border: solid 3px #AFA;
+}
+
+article.lose {
+    border: solid 3px #FAA;
+}
+
+article .header {
+    padding: 1rem;
+    color:#FFF;
+    margin-bottom: 1rem;
+}
+
+article .header h2 {
+    display: flex;
+}
+
+article .header h2 div.date {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+article .header h2 div.duration {
+    margin-right: 2rem;
+}
+
+
+article.win .header {
+    background-color: #0A0;
+}
+
+article.lose .header {
+    background-color: #A00;
+}
+
+
+
+article .detail {
+    display: flex;
+}
+
+article .detail .champion {
+    position: relative;
+}
+
+
+article .detail .champion img{
+    display: block;
+}
+
+article .detail .champion .level { 
+    position: absolute;
+    top:0;
+    padding: 4px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+
+article .detail .stat{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+
+article .detail .stat .value {
+    font-size: 3rem;
+    text-align: center;
+}
+
+article .detail .stat .value.kill-number {
+    color: #0A0;
+}
+
+article .detail .stat .value.death-number {
+    color: #A00;
+}
+
+
+article .detail .stat .value.assist-number {
+    color: #AA0;
+}
