@@ -1,0 +1,34 @@
+.summoner-container {
+    display: none;
+}
+
+.summoner-container .favorite-champion {
+    position: relative;
+    border: solid 1px #000;
+}
+
+
+.summoner-container .favorite-champion figcaption {
+    position: absolute;
+    width:100%;
+    box-sizing: border-box;
+    padding: 8px;
+    bottom:0;
+    background-color: rgba(0,0,0, 0.5);
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.summoner-container .favorite-champion img {
+    display: block;
+    width:100%;
+}
+
+
+.summoner-container .lane-graph {
+    height: 500px;
+}
+
+.summoner-container .support-graph {
+    height: 500px;
+}

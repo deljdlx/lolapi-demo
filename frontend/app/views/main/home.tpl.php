@@ -19,6 +19,11 @@ require __DIR__ . '/../partials/carousel-large.tpl.php';
 
 
     <?php
+    require __DIR__ . '/../partials/summoner.tpl.php';
+    ?>
+
+
+    <?php
     require __DIR__ . '/../partials/matches.tpl.php';
     ?>
 

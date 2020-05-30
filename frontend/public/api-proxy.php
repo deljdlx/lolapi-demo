@@ -5,7 +5,7 @@
 
 class LolApiProxy
 {
-    private $apiKey =  'RGAPI-3b2fe12f-b640-4528-836f-c3d61ef9e3a4';
+    private $apiKey =  'RGAPI-1b4f370f-e921-4431-b785-63729a908a89';
     private $apiRootUrl = 'https://euw1.api.riotgames.com/lol';
     private $dataRootUrl = 'http://ddragon.leagueoflegends.com/cdn/10.11.1/data/fr_FR';
 

@@ -22,6 +22,8 @@ require(__DIR__ . '/../partials/footer.tpl.php');
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
+
 
     <script src="assets/javascript/LolApi.js"></script>
     <script src="assets/javascript/app.js"></script>

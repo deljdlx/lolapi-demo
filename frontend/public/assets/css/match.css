@@ -1,6 +1,6 @@
 
 section.matches-container {
-    
+    display: none;    
 }
 
 article.match {
@@ -10,6 +10,7 @@ article.match {
 
 article.match {
     /*padding: 4px;*/
+    position: relative;
     box-shadow: 3px 3px 3px rgba(0,0,0, 0.5);
     border-radius: 4px;
     border: solid 1px #000;
@@ -18,7 +19,15 @@ article.match {
 
 
 
+article.match .text {
+    padding: 1rem;
+    height: 100%;
+}
+
+
+
 article.win {
+    background-color:#0F0;
     /*border: solid 3px #AFA;*/
     
 }
@@ -28,15 +37,20 @@ article.lose {
     background-color:#F00;
 }
 
-article img {
+article.match img {
+    opacity: 0.7;
+    transition: all 0.3s;
+}
 
+article.match:hover img {
+    opacity: 1;
 }
 
 
 
 article.match div.date {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#FFF;
     display: flex;
     flex-direction: column;
@@ -54,10 +68,12 @@ article .header h2 div.duration {
 
 
 article.match .kda {
+    box-sizing: border-box;
+    margin-bottom: 1rem;
     color: #FFF;
     display: flex;
-    width: 100%;
     justify-content: center;
+    width: 100%;
 }
 
 article.match .kda h4 {
@@ -66,10 +82,10 @@ article.match .kda h4 {
 
 
 article.match .kda .stat{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 0 2rem;
-    margin: 0 1rem;
 }
 
 
@@ -89,7 +105,6 @@ article .detail .champion .level {
     font-weight: bold;
     color: #FFF;
 }
-
 
 
 

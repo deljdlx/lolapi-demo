@@ -9,8 +9,12 @@ let LolApi = {
     cache: 'no-cache',
 },
 
-  getChampionThumbnailURL: function(chamionName) {
-    return 'http://ddragon.leagueoflegends.com/cdn/10.11.1/img/champion/' + chamionName + '.png';
+  getChampionThumbnailURL: function(championName) {
+    return 'http://ddragon.leagueoflegends.com/cdn/10.11.1/img/champion/' + championName + '.png';
+  },
+
+  getChampionSplash: function(championName) {
+    return 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/' + championName + '_0.jpg'
   },
 
   getChampions: function (doOnSuccess) {

@@ -14,7 +14,7 @@
 
     <template id="match-template">
         <article class="match">
-            <a href="#" class="item-dishes" data-aos="fade-right" data-aos-delay="100">
+            <a href="#" class="item-dishes" >
                 <div class="text">
                     <div class="date"></div>
 

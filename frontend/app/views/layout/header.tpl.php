@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/overide.css" />
     <link rel="stylesheet" href="assets/css/match.css" />
+    <link rel="stylesheet" href="assets/css/summoner.css" />
   </head>
   <body>
     

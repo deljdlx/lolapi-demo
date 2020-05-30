@@ -23,13 +23,13 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">Change-log</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="news.html">News</a>
+            <a class="nav-link" href="news.html">Documentation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">About</a>
           </li>
         </ul>
 

@@ -16,8 +16,8 @@ $slides = [
           <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
               <div class="col-md-8 text-center col-sm-12 ">
-                <h1 data-aos="fade-up mb-5">Code, learn, enjoy </h1>
-                <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get the sources</a></p>
+                <h1 data-aos="fade-up mb-5">Lol api for noobs</h1>
+                <p data-aos="fade-up" data-aos-delay="200"><a href="https://github.com/deljdlx/lolapi-demo/tree/develop" class="btn btn-white btn-outline-white">Get the sources</a></p>
               </div>
             </div>
           </div>
