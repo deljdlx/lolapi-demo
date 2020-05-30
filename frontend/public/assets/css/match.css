@@ -1,0 +1,113 @@
+
+section.matches-container {
+    
+}
+
+article.match {
+    background-color:#DDD;
+    margin: 1rem;
+}
+
+article.match {
+    /*padding: 4px;*/
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.5);
+    border-radius: 4px;
+    border: solid 1px #000;
+
+}
+
+
+
+article.win {
+    /*border: solid 3px #AFA;*/
+    
+}
+
+article.lose {
+    /*border: solid 3px #FAA;*/
+    background-color:#F00;
+}
+
+article img {
+
+}
+
+
+
+article.match div.date {
+    font-weight: bold;
+    font-size: 2rem;
+    color:#FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+article .header h2 div.duration {
+    margin-right: 2rem;
+}
+
+
+
+
+
+
+article.match .kda {
+    color: #FFF;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+article.match .kda h4 {
+    color: #FFF;
+}
+
+
+article.match .kda .stat{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 0 1rem;
+}
+
+
+article .detail .champion {
+    position: relative;
+}
+
+
+article .detail .champion img{
+    display: block;
+}
+
+article .detail .champion .level { 
+    position: absolute;
+    top:0;
+    padding: 4px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+
+
+
+article.match .stat .value {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+article.match .stat .value.kill-number {
+    color: #0C0;
+}
+
+article.match .stat .value.death-number {
+    color: #C00;
+}
+
+
+article.match .stat .value.assist-number {
+    color: #CC0;
+}

@@ -1,0 +1,31 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#f8f9fa;
+}
+
+header {
+
+}
+
+main {
+    max-width:2000px;
+    margin: auto;
+}
+
+section, .section {
+    padding: 1rem 0;
+}
+
+section.search {
+    
+    max-width: 800px;
+    margin:auto;
+    margin-bottom: 2rem;
+}
+
+section.search input,  section.search button{
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 3rem;
+    height: 5rem;
+}
