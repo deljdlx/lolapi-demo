@@ -282,26 +282,7 @@ let app = {
 
     let duration = Math.round(match.gameDuration/60);
 
-    /*
-    let championThumnail = app.client.getChampionThumbnailURL(champion.id);
-    element.querySelector('.champion-thumbnail').setAttribute('src', championThumnail);
-    element.querySelector('.level').innerHTML = app.getLevel(match);
-
-
-
-    let date = new Date(match.gameCreation);
-    let duration = Math.round(match.gameDuration/60);
-    element.querySelector('.header').innerHTML = 
-      '<h2>'+
-        '<div class="date"><span class="date">' + date.toLocaleDateString() + ' </span><span class="hour">' + date.toLocaleTimeString() + '</span></div>' + 
-        '<div class="duration">' +duration+ 'm</div>' +
-        '<div><span class="champion">' + champion.id + '</span></div>' +
-      '</h2>';
-
-
-    */
-
-    
+   
 
     if(hasWin) {
       element.classList.add('win');

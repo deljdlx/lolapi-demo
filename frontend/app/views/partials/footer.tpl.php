@@ -5,8 +5,8 @@
           <div class="col-md-4 mb-5">
             <h3>Used resources</h3>
             <ul class="list-unstyled footer-link">
-              <li><a href="#">Echars</a></li>
-              <li><a href="#">Slick carousel</a></li>
+              <li><a href="https://echarts.apache.org/examples/en/index.html">Echars</a></li>
+              <li><a href="https://kenwheeler.github.io/slick/">Slick carousel</a></li>
               <li><a href="https://colorlib.com/wp/template/gourmet/">Gourmet template</a></li>
             </ul>
 
@@ -15,14 +15,14 @@
             <div>
               <h3>Documentation</h3>
               <ul class="list-unstyled footer-link">
-                <li><a href="#">Riot official documentation</a></li>
-                <li><a href="#">Unofficial documentation</a></li>
+                <li><a href="https://developer.riotgames.com/">Riot official documentation</a></li>
+                <li><a href="https://riot-api-libraries.readthedocs.io/en/latest/">Unofficial documentation</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md-3 mb-5">
             <h3>Want more ?</h3>
-            <p><strong class="d-block font-weight-normal text-black">Here some cool stuffs by<a href="https://github.com/deljdlx/"> Julien Delsescaux</a></p>          
+            <p><strong class="d-block font-weight-normal text-black">Here some other cool stuffs by<a href="https://github.com/deljdlx/"> Julien Delsescaux</a></p>          
           </div>
         </div>
         <div class="row">
