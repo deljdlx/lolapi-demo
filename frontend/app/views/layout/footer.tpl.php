@@ -25,12 +25,34 @@ require(__DIR__ . '/../partials/footer.tpl.php');
     <script src="https://cdn.jsdelivr.net/npm/echarts@4.7.0/dist/echarts.min.js"></script>
 
 
-    <script src="assets/javascript/LolApi.js"></script>
-    <script src="assets/javascript/app.js"></script>
+
+    <script src="assets/javascript/api/Repository.js"></script>
+    <script src="assets/javascript/api/Entity.js"></script>
+
+    <script src="assets/javascript/api/Match.js"></script>
+    <script src="assets/javascript/api/Participant.js"></script>
+    <script src="assets/javascript/api/Participation.js"></script>
+    <script src="assets/javascript/api/LeagueRank.js"></script>
+
+    <script src="assets/javascript/api/Summoner.js"></script>
+    <script src="assets/javascript/api/Champion.js"></script>
+    <script src="assets/javascript/api/Client.js"></script>
+
+
+    <script src="assets/javascript/LolApiWorkbench.js"></script>
+
+    <script src="assets/javascript/Components/MatchCarousel.js"></script>
+    <script src="assets/javascript/Components/LanePiChart.js"></script>
+    <script src="assets/javascript/Components/RolePiChart.js"></script>
+    <script src="assets/javascript/Components/SummonerDetails.js"></script>
+
 
     
     <script>
-      document.addEventListener('DOMContentLoaded', app.init);
+      document.addEventListener('DOMContentLoaded', function() {
+        const application = new LolApiWorkbench();
+        application.initialize();
+      });
 
     </script>
     

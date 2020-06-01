@@ -1,1 +1,2 @@
-/cache/*
+/frontend/public/cache/*
+#/backend/vendor

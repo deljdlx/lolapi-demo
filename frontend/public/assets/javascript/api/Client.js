@@ -1,55 +1,55 @@
-let LolApi = {
+class Client
+{
 
-  proxyURL: './api-proxy.php',
+  proxyURL = './api-proxy.php';
 
-
-  fetchOption: {
+  fetchOption = {
     method: 'GET',
     mode: 'no-cors',
     cache: 'no-cache',
-},
+  };
 
-  getChampionThumbnailURL: function(championName) {
+  getChampionThumbnailURL(championName) {
     return 'http://ddragon.leagueoflegends.com/cdn/10.11.1/img/champion/' + championName + '.png';
-  },
+  }
 
-  getChampionSplash: function(championName) {
+  getChampionSplash(championName) {
     return 'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/' + championName + '_0.jpg'
-  },
+  }
 
-  getChampions: function (doOnSuccess) {
+  getChampions(doOnSuccess) {
 
-    LolApi.query(
+    this.query(
       '/data/champion.json',
       doOnSuccess
     );
-  },
+  }
 
-  getAccountByName: function(accountName, doOnSuccess) {
-    LolApi.query(
+  getAccountByName(accountName, doOnSuccess) {
+    this.query(
       '/summoner/v4/summoners/by-name/' + accountName,
       doOnSuccess
     )
-  },
+  }
 
-  getMatches: function(accountInfo, doOnSuccess) {
-    LolApi.query(
+  getMatches(accountInfo, doOnSuccess) {
+    return this.query(
       '/match/v4/matchlists/by-account/' + accountInfo.accountId,
       doOnSuccess
     );
-  },
+  }
 
   getMatchInfo(matchId, doOnSuccess) {
-    LolApi.query(
+    return this.query(
       '/match/v4/matches/' + matchId,
       doOnSuccess
     );
-  },
+  }
 
 
-  query: function(endPoint, doOnSuccess, options) {
+  query(endPoint, doOnSuccess, options) {
     if(typeof(options) === 'undefined') {
-      options = LolApi.fetchOption;
+      options = this.fetchOption;
     }
 
     /*
@@ -58,20 +58,19 @@ let LolApi = {
     https://riot-api-libraries.readthedocs.io/en/latest/mobile.html#
     */
 
-    let proxyURL = LolApi.proxyURL + '?endpoint=' + endPoint;
+    let proxyURL = this.proxyURL + '?endpoint=' + endPoint;
 
     //==============================
     let request = fetch(proxyURL, options);
 
-    request
-      .then(LolApi.parseResponse)
-      .then(doOnSuccess)
-    ;
-  },
-
-  parseResponse: function (response) {
-    return response.json();
+    let promise = request.then(this.parseResponse);
+    if(doOnSuccess) {
+      promise = promise.then(doOnSuccess)
+    }
+    return promise;
   }
 
-
+  parseResponse(response) {
+    return response.json();
+  }
 }

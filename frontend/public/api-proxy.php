@@ -77,7 +77,7 @@ if(!is_dir($cachePath)) {
 if(is_file($cacheFile)) {
     $data = json_decode(file_get_contents($cacheFile));
     if(!$data) {
-        unlink($cachePath);
+        unlink($cacheFile);
     }
 }
 

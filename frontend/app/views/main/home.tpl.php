@@ -8,7 +8,7 @@ require __DIR__ . '/../partials/carousel-large.tpl.php';
     <section class="section search">
         <form id="search-invocator">
             <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Invocator's name" name="invocator">
+            <input type="text" class="form-control" placeholder="Invocator's name" name="invocator" value="furiie">
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary"><i class="fas fa-search"></i></button>
             </div>
